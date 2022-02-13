@@ -138,4 +138,10 @@ _my_paths := \
   $(TARGET_COPY_OUT_ROOT)/ \
   $(TARGET_COPY_OUT_SYSTEM)/ \
 
+
+# DarshanOS
+PRODUCT_COPY_FILES += \
+        packages/apps/SpeechServices/default_permissions_com.google.android.tts.xml:/system/etc/default-permissions/default-permissions_com.google.android.tts.xml
+
+
 $(call require-artifacts-in-path, $(_my_paths), $(_my_allowed_list))

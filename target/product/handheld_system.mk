@@ -66,6 +66,7 @@ PRODUCT_PACKAGES += \
     SecureElement \
     SharedStorageBackup \
     SimAppDialog \
+    SpeechServices \
     talkback \
     Telecom \
     TelephonyProvider \
@@ -74,7 +75,6 @@ PRODUCT_PACKAGES += \
     UserDictionaryProvider \
     VpnDialogs \
     vr \
-
 
 PRODUCT_SYSTEM_SERVER_APPS += \
     FusedLocation \
